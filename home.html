@@ -13,7 +13,25 @@
     </script>
 </head>
 <body>
-    <div class = "top-box"></div>
+    
+<button id="soundButton">click here</button>
+<audio id="clickSound" src="assets/zapsplat_human_fart_noise_mouth_very_short_simple_113843.mp3" preload="auto"></audio>
+ <script>
+        const button = document.getElementById("soundButton");
+        const sound = document.getElementById("clickSound");
+
+        button.addEventListener("click", () => {
+        sound.currentTime = 0;  
+        sound.play();
+    });
+    </script>   
+
+
+
+<div class = "top-box"></div>
+    <img class = "cartoon" src="assets/luffy.jpg" alt="background image">
+        <img class = "pic" src="assets/ajay-sophia.png" alt="background image">
+
 
     <h1 class = "header1" id = "header">Hi Ajay!</h1>
     <div class = "header2">

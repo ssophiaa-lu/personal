@@ -14,6 +14,7 @@
     padding: 1px;
     text-align: center;
 }
+
 h1 {
     font-family: "Montserrat", sans-serif;
     margin: 50 px;
@@ -75,7 +76,36 @@ h1 {
     text-align: center;
 }
 
+.cartoon {
+    color: #4a4e69;
+    margin: 30px auto;
+    padding: 1px;
+    width: 100px;
+    height: auto;
+    display: block;
+}
+.pic{
+    color: #4a4e69;
+    margin: 10px auto;
+    padding: 1px;
+    width: 200px;
+    height: auto;
+    display: block;
+}
+#soundButton {
+    background-color: #bc6c25;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    display: block;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    width: 100px;
+    height: auto;
+    margin: 10px auto;
 
+}
 body {
     background-color: #f4f4f9;
 }
